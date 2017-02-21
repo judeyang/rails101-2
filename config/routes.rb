@@ -7,6 +7,8 @@ resources :groups do
     post :quit
   end
   resources :posts
+
+
 end
 
 namespace :account do
@@ -14,6 +16,7 @@ namespace :account do
   resources :posts
 
 end
+
 
 root 'groups#index'
 end
